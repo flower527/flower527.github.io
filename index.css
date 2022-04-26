@@ -17,6 +17,12 @@
     font-style: normal;
 }
 
+div #margin {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
 .Box1 {
     text-decoration: overline;
     overflow: visible;
@@ -43,7 +49,7 @@
     background-color: rgba(255, 255, 255, 0.1)
 }
 .box3 {
-    position: fixed;z-index: 3;
+    position: fixed;z-index: 6;
     top: 1vw;
     left: 55vw;
     width: 40vw;
@@ -57,14 +63,14 @@
 #box4 {
     font-family: 'YUniverse-B';
     font-size: 1vw;
-    position: fixed;
+    position: fixed;z-index: 5;
     top: 7vw;
     left: 55vw;
     width: 50vw;
 }
 
 .box5 {
-    position: fixed;z-index: 2;
+    position: fixed;z-index: 4;
     top: 10vw;
     left: 55vw;
     width: 40vw;
@@ -78,14 +84,37 @@
 }
 
 .box6 {
-    position: relative;z-index: 1;
+    position: relative;z-index: 3;
     top: 10vw;
     left: 0vw;
+    width: 50vw;
     overflow: hidden;
 }
 .image-box {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: auto;
     overflow: hidden;
+}
+
+video {
+    max-width: 1000px;
+    width: 100%;
+}
+#box7 {
+    position: absolute;z-index: 1;
+    top: 2120px;
+    left: 40vw;
+    width: 50vw;
+    height: auto;
+}
+
+#box8 {
+    font-family: 'GmarketSansBold';
+    color: black;
+    font-size: 3vw;
+    position: fixed;z-index: 2;
+    top: 30vw;
+    left: 45vw;
+    width: 40vw;
 }
