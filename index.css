@@ -1,3 +1,9 @@
+@media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    }
+    @media screen and (max-width:599px) {
+        /* 모바일 세로 */
+        }
 
 @font-face {
     font-family: 'GmarketSansBold';
@@ -17,58 +23,61 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .Box1 {
     text-decoration: overline;
     overflow: visible;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'GmarketSansBold';
     display: inline;
-    position: relative;
+    position: absolute;
     float: left;
-    top: 10px;
-    left: 20px;
-    width: 25%;
-    height: 40px;
+    top: 1vw;
+    left: 1vw;
+    width: 5vw;
+    height: 5vw;
     background-color: rgba(255, 255, 255, 0.1)
 }
 #box2 {
-    font-size: 40px;
+    font-size: 4vw;
     font-family: 'YUniverse-B';
     display: inline;
-    position: relative;
-    top: 10px;
-    left: 90px;
-    height: 40px;
-    width: 100px;
+    position: absolute;
+    top: 1vw;
+    left: 30vw;
+    height: 5vw;
+    width: 5vw;
     background-color: rgba(255, 255, 255, 0.1)
 }
 .box3 {
     position: fixed;z-index: 3;
-    top: 5px;
-    left: 800px;
-    width: 100px;
-    height: 100px;
+    top: 1vw;
+    left: 55vw;
+    width: 40vw;
+    height: 40vw;
     overflow: cover;
 }
 .image-box {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    max-width: 100%;
+    min-width: 10%;
+    height: auto;
     object-fit: cover;
 }
 #box4 {
     font-family: 'YUniverse-B';
-    font-size: 20px;
+    font-size: 1vw;
     position: fixed;
-    top: 85px;
-    left: 820px;
+    top: 7vw;
+    left: 55vw;
+    width: 50vw;
 }
 
 .box5 {
     position: fixed;z-index: 2;
-    top: 110px;
-    left: 800px;
-    width: 100px;
+    top: 10vw;
+    left: 55vw;
+    width: 40vw;
     overflow: cover;
 }
 .image-box {
@@ -80,14 +89,13 @@
 
 .box6 {
     position: relative;z-index: 1;
-    top: 100px;
-    left: 0px;
-    overflow: cover;
+    top: 10vw;
+    left: 0vw;
+    overflow: hidden;
 }
 .image-box {
     position: absolute;
-    top: 100px;
     width: 100%;
     height: 100%;
-    overflow: cover;
+    overflow: hidden;
 }
