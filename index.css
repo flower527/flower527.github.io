@@ -52,9 +52,6 @@
 }
 .image-box {
     position: fixed;
-    max-width: 100%;
-    min-width: 10%;
-    height: auto;
     object-fit: cover;
 }
 #box4 {
