@@ -47,6 +47,7 @@ main {
 .fa {
     font-size: 24px;
     width: 32px;
+    top: 5px;
     text-align: center;
     text-decoration: none;
 }
@@ -79,7 +80,7 @@ main {
     position: absolute;
     width: 36px;
     height: 18px;
-    left: 83%; transform: translateX(-50%);
+    left: 75%; transform: translateX(-50%);
     text-align: center;
     font-family: "GmarketSansLight";
     /* background-color: #fff; */
@@ -186,7 +187,7 @@ main {
 
 @media screen and (max-width: 520px) {
     main {
-        height: 370vw;
+        height: 190vw;
     }
     #item-container0 {
         margin: 0;

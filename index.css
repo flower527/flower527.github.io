@@ -76,7 +76,7 @@ main {
     position: absolute;
     width: 36px;
     height: 18px;
-    left: 83%; transform: translateX(-50%);
+    left: 75%; transform: translateX(-50%);
     text-align: center;
     font-family: "GmarketSansLight";
     /* background-color: #fff; */
@@ -178,7 +178,7 @@ main {
 
 @media screen and (max-width: 960px) {
     main {
-        height: 140vw;
+        height: 145vw;
     }
     #item-container0 {
         margin-left: 0;
@@ -191,7 +191,7 @@ main {
 
 @media screen and (max-width: 520px) {
     main {
-        height: 370vw;
+        height: 560vw;
     }
     #item-container0 {
         margin: 0;

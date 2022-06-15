@@ -39,7 +39,7 @@ header {
 main {
     position: relative;
     width: 98%;
-    height: 50vw;
+    height: 55vw;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -79,7 +79,7 @@ main {
     position: absolute;
     width: 36px;
     height: 18px;
-    left: 83%; transform: translateX(-50%);
+    left: 75%; transform: translateX(-50%);
     text-align: center;
     font-family: "GmarketSansLight";
     /* background-color: #fff; */
@@ -136,7 +136,7 @@ main {
 
 @media screen and (max-width: 960px) {
     main {
-        height: 100vw;
+        height: 110vw;
     }
     #item-container0 {
         margin-left: 0;
@@ -149,7 +149,7 @@ main {
 
 @media screen and (max-width: 520px) {
     main {
-        height: 370vw;
+        height: 200vw;
     }
     #item-container0 {
         margin: 0;
