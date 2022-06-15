@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 48px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+main {
+    position: relative;
+    width: 98%;
+    height: 50vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.fa {
+    font-size: 24px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    color: coral;
+}
+
+#logo {
+    position: relative;
+    width: 360px;
+    padding-top: 32px;
+    font-family: 'GmarketSansLight';
+    font-size: 2.0em;
+    font-weight: 50;
+    left: 1%;
+}
+
+#logo > a:link,
+#logo > a:visited
+{
+    text-decoration: none;
+    color: #000000;
+}
+#logo > a:hover
+{
+    color: coral;
+}
+
+#mainmenu {
+    position: absolute;
+    width: 36px;
+    height: 18px;
+    left: 83%; transform: translateX(-50%);
+    text-align: center;
+    font-family: "GmarketSansLight";
+    /* background-color: #fff; */
+}
+#mainmenu > ul {
+    display: inline-block;
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+#item-grid {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.item-container{
+    float: left;
+    position: relative;
+    width: 50%;
+    padding-top: 50%;
+}
+.item{
+    position: absolute;
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.item > img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#mainmenu > ul a:link,
+#mainmenu > ul a:visited
+{
+    text-decoration: none;
+    color: #000000;
+}
+#mainmenu > ul a:hover
+{
+    text-decoration: none;
+    color: coral;
+}
+#mainmenu > ul li {
+    float: left;
+    padding: 0 24px;
+    /* background-color: #fff;
+    border: solid 1px #000; */
+}
+
+#social {
+    position: absolute;
+    right: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.3)   
+}
+.item:hover .overlay {
+    opacity: 1;
+}  
+.text {
+    color: white;
+    font-size: 15px;
+    font-family: 'LeferiPoint-BlackA';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#by {
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    font-family: 'GmarketSansLight';
+    font-size: 1.0em;
+    bottom: 16px;
+}
+
+@media screen and (max-width: 960px) {
+    main {
+        height: 190vw;
+    }
+    #item-container0 {
+        margin-left: 0;
+    }
+    .item-container {
+        width: 100%;
+        padding-top: 100%;
+    } 
+}
+
+@media screen and (max-width: 520px) {
+    main {
+        height: 370vw;
+    }
+    #item-container0 {
+        margin: 0;
+    }
+    .item-container {
+        width: 100%;
+        padding-top: 100%;
+    } 
+}
